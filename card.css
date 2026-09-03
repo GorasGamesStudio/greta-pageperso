@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rock Salt', sans-serif;
+}
+
+.carte {
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 50%;
+}
+
+.card-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+.card-title {
+    color: #747244;
+    text-align: center;
+    margin: 10px 0;
+}
+.card-text {
+    color: #008007;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
